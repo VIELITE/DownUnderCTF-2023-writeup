@@ -33,8 +33,8 @@ first we need to find the actual value of the `use_this` string value,it is set 
 
 >cast call 0xf22cB0Ca047e88AC996c17683Cee290518093574 "readTheStringHere()(string)" --rpc-url https://blockchain-eightfivefourfive-88d67f3487ecf2be-eth.2023.ductf.dev:8545`
 
-after we run the command it gives us the string `I can connect to the blockchain!`
-we can now pass it as argument to the `solve_the_challenge()` function which will set `isSolved()` to True.
+after we run the command it gives us the string `I can connect to the blockchain!`.
+We can now pass it as argument to the `solve_the_challenge()` function which will set `isSolved()` to True.
 
 >cast send 0xab9A67BDA6C35E84B64F48A12c668978A450c7B0 "solve_the_challenge(string)" "I can connect to the blockchain!" --rpc-url https://blockchain-eightfivefourfive-88d67f3487ecf2be-eth.2023.ductf.dev:8545 --private-key 0x54f6736d945070c644c48b3c5f89ad0306eaa5740a5854ef005fb1fe9367267a https://blockchain-eightfivefourfive-88d67f3487ecf2be-eth.2023.ductf.dev:8545 --legacy
 
